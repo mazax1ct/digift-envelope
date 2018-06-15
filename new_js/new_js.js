@@ -1,5 +1,5 @@
 $(document).ready(function () {
   setTimeout(function() {
-    $('.animation-block').addClass('bounceInLeft animated');
+    $('.animation-block').removeClass('hide').addClass('bounceInLeft animated');
   }, 1000);
 });

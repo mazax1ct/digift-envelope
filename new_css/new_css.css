@@ -15,39 +15,30 @@
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   0% {
-    display: none;
-    opacity: 0;
     -webkit-transform: translate3d(-2000px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(-2000px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   16.6% {
-    display: block;
-    opacity: 1;
     -webkit-transform: translate3d(75px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(75px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   33.2% {
-    opacity: 1;
     -webkit-transform: translate3d(-25px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(-25px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   49.8% {
-    opacity: 1;
     -webkit-transform: translate3d(15px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(15px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   66.4% {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1.2, 1.2, 1.2);
     transform: translate3d(0, 0, 0) scale3d(1.2, 1.2, 1.2);
   }
   83% {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 0.9);
     transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 0.9);
   }
   to {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
     transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
   }
@@ -63,39 +54,30 @@
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   0% {
-    display: none;
-    opacity: 0;
     -webkit-transform: translate3d(-2000px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(-2000px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   16.6% {
-    display: block;
-    opacity: 1;
     -webkit-transform: translate3d(75px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(75px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   33.2% {
-    opacity: 1;
     -webkit-transform: translate3d(-25px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(-25px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   49.8% {
-    opacity: 1;
     -webkit-transform: translate3d(15px, 0, 0) scale3d(0.5, 0.5, 0.5);
     transform: translate3d(15px, 0, 0) scale3d(0.5, 0.5, 0.5);
   }
   66.4% {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1.2, 1.2, 1.2);
     transform: translate3d(0, 0, 0) scale3d(1.2, 1.2, 1.2);
   }
   83% {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 0.9);
     transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 0.9);
   }
   to {
-    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
     transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
   }
@@ -114,7 +96,6 @@
   cursor: pointer;
 }
 
-.animation-block {
+.animation-block.hide {
   display: none;
-  opacity: 0
 }
